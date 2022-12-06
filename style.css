@@ -1,49 +1,32 @@
+.body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .btn{
     background-color: pink;
     color: black;
 }
 
-.home{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background:url(2.jpg) no-repeat;
+.img-bg {
+    background-image: url("2.jpg") ;
     background-size: cover;
-    background-position: center;
+    height: 1080px;
+    padding-top: 380px;
+    padding-left: 200px;
+    color: rgb(31, 31, 31);
+    font-size: 50px;
 }
-.home .container{
-    margin-right: 500px;
+.avatar1 {
+    vertical-align: middle;
+    width: 20%;
+    border-radius: 50%;
 }
-.home .content{
-    margin-right: 50px;
+.avatar2 {
+    vertical-align: middle;
+    width: 20%;;
+    border-radius: 50%;
 }
-.home .content h3{
-    font-size: 4rem;
-    color:#fff;
-    margin-right: 500px;
-}
-
-.about .row{
-    display: flex;
-    align-items: center;
-    background:var(--black);
-    flex-wrap: wrap;
-}
-
-.about .row .image{
-    flex:1 1 45rem;
-}
-
-.about .row .image img{
-    width: 95%;
-}
-.about .row .content{
-    flex:1 1 45rem;
-    padding:2rem;
-}
-.about .row .content p{
-    font-size: 3rem;
-    color:rgb(39, 39, 39);
-    line-height: 1.8;
-    margin-left: 50px;
+.avatar3 {
+    vertical-align: middle;
+    width: 20%;
+    border-radius: 50%;
 }
