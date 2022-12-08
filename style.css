@@ -5,6 +5,9 @@
     background-color: pink;
     color: black;
 }
+.navbar .nav-link{
+    color: pink;
+}
 
 .img-bg {
     background-image: url("2.jpg") ;
@@ -31,3 +34,15 @@
     border-radius: 50%;
 }
 
+.footer{
+    margin-top: 100px;
+}
+.footer .row .mobile{
+    margin-top: 20px;
+    text-align: center;
+}
+.footer .row .copyright{
+    margin-top: 20px;
+    text-align: right;
+    font-size: 13px;
+}
